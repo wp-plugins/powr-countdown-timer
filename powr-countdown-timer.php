@@ -6,7 +6,7 @@
     /*
     Plugin Name: POWr Countdown Timer
     Plugin URI: http://www.powr.io
-    Description: Countdown to a launch, event, or important date Add the widget to your theme, or create a Countdown Timer on ANY page or post by using the shortcode [powr-countdown-timer]. Then, simply visit your site and click the settings icon to customize your Countdown Timer right in the page. Many more plugins & tutorials at POWr.io.
+    Description: Create a customized Countdown Timer for any event. Add the widget to your theme, or create a Countdown Timer on ANY page or post by using the shortcode [powr-countdown-timer]. Then, simply visit your site and click the settings icon to customize your Countdown Timer right in the page. Many more plugins & tutorials at POWr.io.
     Author: POWr.io
     Version: 1.0
     Author URI: http://www.powr.io
