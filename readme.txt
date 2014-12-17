@@ -4,7 +4,7 @@ Contributors: powr
 Donate link: http://powr.io/
 Tags: flash sale, event countdown, clock countdown, timer, html timer, responsive web design, easy, personalize, ecommerce, customize, optimize, sidebar, drag and drop, WYSIWYG, mobile responsive, birthday countdown, website countdown, baby, pregnancy, ticker, wedding, world cup, olympic games, days till, exams, teacher, halloween, st. patricks day, christmas, special deal, limited time, countdown timer, time to event, countdown to time, countdown timer plugin, countdown timer widget, mobile responsive
 Requires at least: 3.0
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
