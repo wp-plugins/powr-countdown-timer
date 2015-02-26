@@ -2,25 +2,26 @@
 ===POWr Countdown Timer===
 Contributors: powr
 Donate link: http://powr.io/
-Tags: flash sale, event countdown, clock countdown, timer, html timer, responsive web design, easy, personalize, ecommerce, customize, optimize, sidebar, drag and drop, WYSIWYG, mobile responsive, birthday countdown, website countdown, baby, pregnancy, ticker, wedding, world cup, olympic games, days till, exams, teacher, halloween, st. patricks day, christmas, special deal, limited time, countdown timer, time to event, countdown to time, countdown timer plugin, countdown timer widget, mobile responsive
+Tags: flash sale, event countdown, clock countdown, timer, html timer, responsive web design, easy, personalize, ecommerce, customize, optimize, sidebar, drag and drop, WYSIWYG, mobile responsive, birthday countdown, website countdown, baby, pregnancy, ticker, wedding, world cup, olympic games, days till, exams, teacher, halloween, st. patricks day, christmas, special deal, limited time, countdown timer, time to event, countdown to time, countdown timer plugin, countdown timer widget, mobile responsive, powr countdown, powr countdown timer
 Requires at least: 3.0
 Tested up to: 4.1
 Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-POWr Countdown Timer lets you create a beautiful, customized Countdown Timer for any upcoming event, all right from your web page!
+Count down to any time and date.
 
 == Description ==
-POWr Countdown Timer is a free cloud-based application.  Create a POWr account to add, edit, and customize POWr Plugins right in your webpage.
+Count down to any time and date.
 <br>
 <br>
-To use Countdown Timer, download and install the plugin, then add to your site as a widget or a shortcode in any post or page: **[powr-banner-slider]**
-
-<blockquote>
-= <a href='https://www.powr.io/plugins/countdown-timer'>Download</a>  |  <a href='http://www.powr.io/tutorials/how-to-add-countdown-timer-plugin-to-your-wordpress-site'>Install Help</a>  |  <a href='http://www.powr.io/knowledge-base'>Knowledge Base</a>  |  <a href='http://www.powr.io/plugins'>More from POWr</a> =
+POWr Countdown Timer is a free cloud-based plugin you can edit in your live web page.  Create a POWr account to access the entire <a href='https://www.powr.io/plugins'>plugin library</a>.
 <br>
-</blockquote>
+<br>
+First, download, install, and activate POWr Countdown Timer. Then drop the widget anywhere in your theme. Or add to a page/post with the POWr icon in the WP editor.
+<br>
+= <a href='http://www.powr.io/tutorials/how-to-add-countdown-timer-plugin-to-your-wordpress-site'>2 MINUTE INSTALL</a> =
+<br>
 
 = Free Features =
 * Easily create and add real-time countdowns to your web page for holidays, events, or launch dates.
@@ -29,25 +30,26 @@ To use Countdown Timer, download and install the plugin, then add to your site a
 * Built-in support for text in any language. 
 * Mobile responsive design looks great on any device.  
 <br>
-= Upgrade to POWr Premium ($2.99)/month and: =
+= Upgrade ($2.99)/mo and: =
 * Eliminate all POWr logos and watermarks
 
-* Boost plugin load speeds
 * Receive premium POWr support
 * Support the development of other great plugins
 
 == Installation ==
-To install POWr Countdown Timer
-<br><br>
-1. Upload 'powr-countdown-timer.php' to the '/wp-content/plugins/' directory
+Download, install, and activate POWr Countdown Timer.
 <br>
-2. Activate the plugin through the 'Plugins' menu in WordPress
-<br><br>
-To add POWr Countdown Timer as a widget, go to **Appearance->Widgets**, and drag POWr Countdown Timer to where you'd like it to appear.
-<br><br>
-To add Countdown Timer within a post or a page, simply write the shortcode **[powr-countdown-timer label='MY LABEL']** (including the brackets) where you'd like your Countdown Timer to appear. Then visit your page!
-<br><br>
-Want a more detailed tutorial? Visit [How to add Countdown Timer to your Wordpress site](http://www.powr.io/tutorials/how-to-add-countdown-timer-plugin-to-your-wordpress-site)
+<br>
+Then drop the widget anywhere in your theme.
+<br>
+<br>
+Or add to a page/post with the POWr Icon in the WP text editor.
+<br>
+<br>
+Then visit your site to and click the settings icon to edit right in the page.
+<br>
+= <a href='http://www.powr.io/tutorials/how-to-add-countdown-timer-plugin-to-your-wordpress-site'>2 MINUTE INSTALL</a> =
+
 
 
 == Frequently Asked Questions ==
@@ -85,6 +87,9 @@ Improved SSL Support
 = 1.2 =
 Improved loading speed
 
+= 1.3 =
+Easily add POWr plugins right from the text editor.
+
 
 
 == Changelog ==
@@ -96,5 +101,8 @@ Improved loading speed
 
 = 1.2 =
 * Improved loading speed
+
+= 1.3 =
+Easily add POWr plugins right from the text editor.
 
 

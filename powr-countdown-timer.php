@@ -1,14 +1,14 @@
 <?php
     /**
      * @package POWr Countdown Timer
-     * @version 1.1
+     * @version 1.3
      */
     /*
     Plugin Name: POWr Countdown Timer
     Plugin URI: http://www.powr.io
-    Description: Create a customized Countdown Timer for any event. Add the widget to your theme, or create a Countdown Timer on ANY page or post by using the shortcode [powr-countdown-timer]. Then, simply visit your site and click the settings icon to customize your Countdown Timer right in the page. Many more plugins & tutorials at POWr.io.
+    Description: Count down to any time and date.  Drop the widget anywhere in your theme. Or use the POWr icon in your WP text editor to add to a page or post. Edit on your live page by clicking the settings icon. More plugins and tutorials at POWr.io.
     Author: POWr.io
-    Version: 1.1
+    Version: 1.3
     Author URI: http://www.powr.io
     */
 
@@ -42,7 +42,7 @@
           if(powr_local_mode()){//Determine JS url:
             $js_url = '//localhost:3000/powr_local.js';
           }else{
-            $js_url = '//www.powr.io/powr.js';
+            $js_url = '//d1w86dhf197kq6.cloudfront.net/powr.js';
           }
           ?>
           <script>
@@ -114,4 +114,29 @@
       return "<div class='powr-countdown-timer' label='$label'></div>";
     }
     add_shortcode( 'powr-countdown-timer', 'powr_countdown_timer_shortcode' );
+
+    /* Add POWr Plug to tiny MCE */
+    if( !function_exists('powr_tinymce_button') ){
+      add_action( 'admin_init', 'powr_tinymce_button' ); //This calls the function below
+
+      function powr_tinymce_button() {
+           if ( current_user_can( 'edit_posts' ) && current_user_can( 'edit_pages' ) ) {
+                add_filter( 'mce_buttons', 'powr_register_tinymce_button' );
+                add_filter( 'mce_external_plugins', 'powr_add_tinymce_button' );
+           }
+      }
+      function powr_register_tinymce_button( $buttons ) {
+           array_push( $buttons, 'powr');
+           return $buttons;
+      }
+      function powr_add_tinymce_button( $plugin_array ) {
+           $plugin_array['powr'] = plugins_url( '/powr_tinymce.js', __FILE__ ) ;
+           return $plugin_array;
+      }
+      //CSS For icon
+      function powr_tinymce_css() {
+          wp_enqueue_style('powr_tinymce', plugins_url('/powr_tinymce.css', __FILE__));
+      }
+      add_action('admin_enqueue_scripts', 'powr_tinymce_css');
+    }
   ?>
