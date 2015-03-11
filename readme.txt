@@ -21,7 +21,7 @@ POWr Countdown Timer is a free cloud-based plugin you can edit in your live web 
 First, download, install, and activate POWr Countdown Timer. Then drop the widget anywhere in your theme. Or add to a page/post with the POWr icon in the WP editor.
 <br>
 = <a href='http://www.powr.io/tutorials/how-to-add-countdown-timer-plugin-to-your-wordpress-site'>2 MINUTE INSTALL</a> =
-<br>
+
 
 = Free Features =
 * Easily create and add real-time countdowns to your web page for holidays, events, or launch dates.
