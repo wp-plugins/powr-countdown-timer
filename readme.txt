@@ -36,6 +36,7 @@ First, download, install, and activate POWr Countdown Timer. Then drop the widge
 * Support the development of other great plugins
 
 
+
 == Installation ==
 Download, install, and activate POWr Countdown Timer.
 <br>
