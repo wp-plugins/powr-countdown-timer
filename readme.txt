@@ -4,7 +4,7 @@ Contributors: powr
 Donate link: http://powr.io/
 Tags: flash sale, event countdown, clock countdown, timer, html timer, responsive web design, easy, personalize, ecommerce, customize, optimize, sidebar, drag and drop, WYSIWYG, mobile responsive, birthday countdown, website countdown, baby, pregnancy, ticker, wedding, world cup, olympic games, days till, exams, teacher, halloween, st. patricks day, christmas, special deal, limited time, countdown timer, time to event, countdown to time, countdown timer plugin, countdown timer widget, mobile responsive, powr countdown, powr countdown timer
 Requires at least: 3.0
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -29,6 +29,7 @@ First, download, install, and activate POWr Countdown Timer. Then drop the widge
 * Built-in support for text in any language. 
 * Mobile responsive design looks great on any device.  
 <br>
+
 = Upgrade ($2.99)/mo and: =
 * Eliminate all POWr logos and watermarks
 * Enable plugin analytics to measure visitors and page views
